@@ -9,14 +9,7 @@
 
     pip3 install PyAstronomy astropy math numba numpy photutils scipy batman csv matplotlib os time
 
-
-  To install the latest release via pip from PyPI use
-  
-    pip install TACHELES
-    
-  to install the current version from github. 
-  
-  Alternatively, download the source and use
+  To install the latest release, download the source and use
   
     python -m pip install .
     
