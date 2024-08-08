@@ -6,17 +6,23 @@
 ------------
   To install the required packes, run
 
-  	'''pip3 install PyAstronomy astropy math numba numpy photutils scipy batman csv matplotlib os time'''
+	'''
+   	pip3 install PyAstronomy astropy math numba numpy photutils scipy batman csv matplotlib os time
+   	'''
 
   To install the latest release via pip from PyPI use
   
-    '''pip install TACHELES'''
+    '''
+    pip install TACHELES
+    '''
     
   to install the current version from github. 
   
   Alternatively, download the source and use
   
-    '''python -m pip install .'''
+    '''
+    python -m pip install .
+    '''
     
 #Parameters
 -----------
@@ -38,6 +44,7 @@ For all of these values, the defaults are the ones used in Perdelwitz et al. (20
 #Quickstart
 -----------
 In order to compute a TACHELES light curve using the system parameters of HAT-P-18 b, 
+
 '''
 from TACHELES.TACHELES import *
 import numpy as np
