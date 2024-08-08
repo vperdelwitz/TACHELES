@@ -20,13 +20,13 @@ Aside from the standard parameters of an Exoplanet system (Rp, period, t0, a, e,
 Since the integrals necessary to calculate the line-of-sight flux are analytically unsolvable, TACHELES utilizes a numerical estimation. 
 In order to do this, TACHELES first performs a grid calculation, and then interpolates on that grid. It requires input on the grid parameters:
 
-dlogH: fineness of the grid in logarithmic scale height
-logHup: upper limit of the grid in logH
-logHlow: lower limit of the grid in logH
-Rmax: extend of the image in stellar radii
-npl: number of planet pixels
-osf: oversample factor
-npl: stellar radius in pixels
+	dlogH: fineness of the grid in logarithmic scale height
+	logHup: upper limit of the grid in logH
+	logHlow: lower limit of the grid in logH
+	Rmax: extend of the image in stellar radii
+	npl: number of planet pixels
+	osf: oversample factor
+	npl: stellar radius in pixels
 
 For all of these values, the defaults are the ones used in Perdelwitz et al. (2024).
 
