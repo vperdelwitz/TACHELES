@@ -4,7 +4,7 @@
 
 #Installation
 ------------
-  To install the required packes, run
+  To install the required packes, check all dependencies by running
 
 
     pip3 install PyAstronomy astropy math numba numpy photutils scipy batman csv matplotlib os time
