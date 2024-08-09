@@ -2,7 +2,7 @@
 
   TACHELES (Transits Across CHromosphEricaLly/coronally activE Stars) is a model for Exoplanet transits which includes, beside a photosphere, a numerical implementation of the chromosphere/corona, i.e. the optically thin outer layer of a star.
 
-#Installation
+Installation
 ------------
   To install the required packes, check all dependencies by running
 
@@ -13,7 +13,7 @@
   
     python -m pip install .
     
-#Parameters
+Parameters
 -----------
 Aside from the standard parameters of an Exoplanet system (Rp, period, t0, a, e, inc, w, Omega, u1, u2) implemented via BATMAN, TACHELES requires several additional parameters for the modeling of the outer stellar atmosphere. 
 
@@ -30,7 +30,7 @@ npl: stellar radius in pixels
 
 For all of these values, the defaults are the ones used in Perdelwitz et al. (2024).
 
-#Quickstart
+Quickstart
 -----------
 In order to compute a TACHELES light curve using the system parameters of HAT-P-18 b, 
 
@@ -64,7 +64,7 @@ TACHELES first computes a chromospheric grid (which may take a while depending o
 The grid for any given set of parameters is calculated only once and saved in the same directory. TACHELES automatically checks whether a suitable grid is already available in the directory, and uses it instead of recalculating the grid.
 
 
-#Acknowledgements and Citation
+Acknowledgements and Citation
 -----------------------------
 If you use TACHELES for your publication, please cite the following paper:
 Perdelwitz et al. 2024 ...
